@@ -1,0 +1,100 @@
+body{
+  background: url(https://wallpaperaccess.com/full/831749.png) center/cover no-repeat fixed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  color: greenyellow;
+  margin-left: 315px;
+  margin-top: -50px;
+}
+
+.description{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.characterContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.characterCardContainer {
+  margin-top: 20px;
+}
+
+.characterCard {
+  text-align: center;
+}
+
+.characterCard img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #080000;
+  max-width: 600px;
+  max-height: 90%;
+  overflow: auto;
+  padding: 20px;
+  text-align: center;
+  color: greenyellow;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.modalContent img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationButton {
+  margin: 0 10px;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
